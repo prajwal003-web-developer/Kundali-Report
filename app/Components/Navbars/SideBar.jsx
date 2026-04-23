@@ -8,7 +8,7 @@ import useKundaliStores from "@/app/Stores/KundaliStores"
 const  Sidebar = () => {
   const {KundaliDatas} = useKundaliStores()
   return (
-    <div className="fixed top-16 left-0 h-[calc(100vh-5rem)] w-64 bg-white border-r border-gray-200 z-30 flex flex-col">
+    <div className="fixed top-16 left-0 h-[calc(100vh-5rem)] w-64 bg-white border-r border-gray-200 z-[999] flex flex-col">
 
       {/* TOP SECTION */}
       <div className="p-4 border-b border-gray-200">
